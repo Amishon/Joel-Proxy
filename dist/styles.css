@@ -1,0 +1,150 @@
+.imgs {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 0;
+  height: 160px;
+  max-width: 160px;
+  cursor: pointer;
+}
+.imgContainer {
+  width: 160px;
+  text-align: center
+}
+.names {
+  margin-top: 0;
+  padding: 0;
+  width: 160px;
+  color: #0066C0;
+  font-size: 13px;
+  cursor: pointer;
+}
+.names:hover{
+  text-decoration: underline;
+}
+.nameContainer {
+  width: 160px;
+  max-height: 76px;
+}
+.rating {
+  margin: 0;
+  padding: 0;
+  cursor: pointer
+}
+.priceContainer {
+  display: flex
+}
+.price {
+  margin: 0;
+  padding: 0;
+  color: #B12704;
+  font-size: 13px
+}
+.primeLogo {
+  width: 42px;
+}
+.itemContainer {
+  display: flex;
+  flex-direction: row;
+  overflow: visible;
+  width: 97%
+}
+.parentContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around
+}
+.carouselTitle {
+  color: #C60;
+  font-size: 16px;
+  font-weight: 700;
+  text-rendering: optimizeLegibility;
+  font-family: verdana,arial,helvetica,sans-serif;
+}
+.fa-star, .fa-star-o, .fa-star-half-o {
+  color: orange;
+  height: 18px
+}
+.item {
+  margin: 0px 0px 0px 15px;
+  width: 160px;
+  height: 274px;
+}
+.nav-btn {
+  position: relative;
+  background: #e7e9ec;
+  border-radius: 3px;
+  border-color: #ADB1B8 #A2A6AC #8D9096;
+  border-style: solid;
+  border-width: 1px;
+  cursor: pointer;
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  width: 30px;
+  height: 33px;
+}
+.buttonContainer {
+  height: 274px;
+  width: 37px
+}
+.btnLeft {
+  margin-left: 30px
+}
+.btnRight {
+  margin-right: 30px
+}
+.fa-angle-left {
+  font-size: 20px
+}
+.fa-angle-right {
+  font-size: 20px
+}
+.galleryImgContainer {
+  height: 40px;
+  width: 40px;
+  border: 1px solid black;
+  /* background: #e7e9ec; */
+  border-radius: 2px;
+  text-align: center;
+  margin: 4px
+}
+.galleryImgContainer:hover {
+  box-shadow: 0 0 3px 2px rgba(228,121,17,.5);
+  border: 1px solid rgba(66, 39, 12, 0.5);
+  cursor: pointer
+}
+.galleryImg {
+  max-height: 40px;
+  max-width: 40px;
+  cursor: pointer
+}
+.imgsContainer {
+  display: flex;
+  flex-direction: column;
+  width: 40px;
+  margin-right: 4px;
+}
+.currentImgContainer {
+  display: flex;
+  width: 36.5%;
+  margin: 8px;
+  justify-content: center;
+  align-items: center;
+}
+.currentImgContainer:after {
+  content: '';
+  padding-bottom: 100%
+}
+.currentImg {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 0;
+  max-height: 396px;
+  max-width: 396px;
+  cursor: pointer;
+}
+.imgGallery {
+  display: flex;
+  flex-direction: row;
+}
